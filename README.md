@@ -3,6 +3,7 @@ Takes two overlapping files of temporal data and appends the first to the second
 
 For instance, lets say you have two overlapping files of data from November and December: one with a date range from Nov. 19 - 29 and annother with a date range from Nov. 25 to Dec. 4 as follows. 
 
+
 First File: Nov19-29.csv
 
 <p> Datetime, Duration, Name </p>
