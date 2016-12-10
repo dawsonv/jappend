@@ -3,10 +3,10 @@ Takes two overlapping files of temporal data and appends the first to the second
 
 For instance, lets say you have two overlapping files of data from November and December: one with a date range from Nov. 19 - 29 and annother with a date range from Nov. 25 to Dec. 4 as follows. 
 
-<p></p>
-<p></p>
+<p> </p>
+<p> </p>
 First File: Nov19-29.csv
-<p></p>
+<p> </p>
 <p> Datetime, Duration, Name </p>
 <p> November 29 5:12 pm, 159, Steve </p>
 <p> November 29 4:58 pm, 298, Carol </p>
@@ -15,10 +15,10 @@ First File: Nov19-29.csv
 <p> November 23 8:19 am, 348, John </p>
 <p> ... </p>
 <p> November 19 2:05 am, 83, Sarah </p>
-<p></p>
-<p></p>
+<p> </p>
+<p> </p>
 <p> Second File: Nov25-Dec4.csv </p>
-<p></p>
+<p> </p>
 <p> Datetime, Duration, Name </p>
 <p> December 4 7:45 am, 349, Todd </p>
 <p> December 4 7:18 am, 38, Joe </p>
@@ -27,7 +27,7 @@ First File: Nov19-29.csv
 <p> December 1 3:53 pm, 348, Fred </p>
 <p> ... </p>
 <p> November 25 11:10 am, 483, Bill </p>
-<p></p>
+<p> </p>
 
 The files are then merged such that the output proceeds continuously from the first entry of the second file, Todd, to the last entry of the first file, Sarah, without repeating observations.
 
